@@ -1,0 +1,13 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jxy0413/microservicecloud-config
+          username: jxy0413
+          password: jiaxiangyu123
